@@ -16,7 +16,7 @@ app.set("view engine", "handlebars");
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutdb", { useNewUrlParser: true, useUnifiedTopology: true });
 
-app.use(require("./routes"))
+app.use(require("./routes/api"))
 
 app.listen(PORT, () => {
     console.log(`==> 🌎  Listening on port ${PORT}!`)

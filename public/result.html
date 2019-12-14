@@ -19,26 +19,17 @@
     </a>
   </nav>
   <div class="wrapper">
-    <form class="form">
-      <label for="wname">Workout Name:</label>
-      <input type="text" id="wname" placeholder="Name" />
-    
-      <label for="sets">Sets:</label>
-      <input type="number" min="0" id="sets" placeholder="Sets" />
-     
-      <label for="reps">Reps:</label>
-      <input type="number" min="0" id="reps" placeholder="Reps" />
-
-      <label for="weight">Weight:</label>
-      <input type="number" min="0" id="weight" placeholder="Weight" />
-
-      <div class="buttons">
-        <button id="add-btn"><i class="fa fa-plus"></i> Add Workouts</button>
-        <button id="results">
-          View Results
-        </button>
-      </div>
-    </form>
+    <table class="table">
+      <thread>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Sets</th>
+          <th scope="col">Reps</th>
+          <th scope="col">Weight</th>
+          <th scope="col">Date</th>
+        </tr>
+      </thread>
+    </table>
   </div>
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -48,7 +39,7 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
-  <script src="js/index.js"></script>
+  <script src="js/result.js"></script>
 </body>
 
 </html>
