@@ -20,21 +20,21 @@
   </nav>
   <div class="wrapper">
     <form class="form" id="form">
-      <label for="wname">Workout Name:</label>
-      <input type="text" id="wname" placeholder="Name" />
+      <label>Workout Name:</label>
+      <input type="text" id="nameInput" placeholder="Name" />
       <br>
-      <label for="sets">Sets:</label>
-      <input type="number" min="0" id="sets" placeholder="Sets" />
+      <label>Sets:</label>
+      <input type="number" min="0" id="setsInput" />
       <br>
-      <label for="reps">Reps:</label>
-      <input type="number" min="0" id="reps" placeholder="Reps" />
+      <label>Reps:</label>
+      <input type="number" min="0" id="repsInput" />
       <br>
-      <label for="weight">Weight:</label>
-      <input type="number" min="0" id="weight" placeholder="Weight" />
+      <label>Weight (lbs):</label>
+      <input type="number" min="0" id="weightInput" />
       <br>
       <div class="buttons">
-        <input type="submit" value="Add Workouts" id="add-btn"><br>
-        <a id="result-btn" href="/results">Results</a>
+        <button type="button" id="add-btn">Add Workout</button>
+        <button type="button" id="result-btn">Results</button>
       </div>
     </form>
   </div>
