@@ -4,7 +4,6 @@ const Schema = mongoose.Schema;
 const WorkoutSchema = new Schema({
     workoutName: {
         type: String,
-        trim: true
     },
     sets: {
         type: Number,
