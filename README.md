@@ -16,7 +16,7 @@ In your terminal type:
 
 ## Demo
 ![livedemo](public/img/workout.gif)
-Live Link: 
+Live Link: https://gentle-bayou-81729.herokuapp.com/
 
 ## Credits
 [UABootCamp](https://bootcamp.ce.arizona.edu/coding/)
