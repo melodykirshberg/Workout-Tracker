@@ -1,7 +1,7 @@
 # Workout-Tracker
 
 ## Description
-The user will be able to add and create workouts.
+The user will be able to add and create workouts which are created with a Mongo database and a Mongoose schema that handles the routes with Express.
 
 ## Table of Contents
 * [Installation](#installation)
