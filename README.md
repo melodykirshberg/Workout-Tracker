@@ -25,4 +25,5 @@ Morgan - Mongoose - Express - Mongo - JavaScript - HTML - CSS - Bootstrap
 Live Link: https://verlitas-workouttracker.herokuapp.com/
 
 ## Credits
+[Melody Kirshberg](https://github.com/verlitas)  
 [UABootCamp](https://bootcamp.ce.arizona.edu/coding/)
