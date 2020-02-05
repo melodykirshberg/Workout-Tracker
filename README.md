@@ -5,6 +5,7 @@ The user will be able to add and create workouts.
 
 ## Table of Contents
 * [Installation](#installation)
+* [Technologies-Libraries](#technologies-libraries)
 * [Demo](#demo)
 * [Credits](#credits)
 
@@ -14,9 +15,14 @@ In your terminal type:
 * Open in Visual Studio to build and run.
 * For further instructions, visit https://help.github.com
 
+## Technologies-Libraries
+### Code
+Morgan - Mongoose - Express - Mongo - JavaScript - HTML - CSS - Bootstrap
+
 ## Demo
 ![livedemo](public/img/workout.gif)
-Live Link: https://gentle-bayou-81729.herokuapp.com/
+
+Live Link: https://verlitas-workouttracker.herokuapp.com/
 
 ## Credits
 [UABootCamp](https://bootcamp.ce.arizona.edu/coding/)
